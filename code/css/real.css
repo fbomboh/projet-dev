@@ -8,20 +8,27 @@
 
 .menu {
     width: 100%;
-    height: 62px;
 }
 
 .header {}
 
+h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+h2-margin {}
+
 #wrapper {
-    height: 40px;
     width: 75%;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .menu ul {
     padding: 20px 0;
-    margin: 0;
+    margin: 5px;
     background: url('../img/header/logo-kofra-site.png') no-repeat center center;
     background-size: 100px;
 }
@@ -64,18 +71,71 @@ a {
     background-repeat: no-repeat;
 }
 
+.center-title-swiper {
+    text-align: center;
+    font-family: 'Lato Black', sans-serif;
+    font-size: 35px;
+    color: white;
+    margin-top: 230px;
+    text-transform: uppercase;
+}
+
+.swiper-pagination {
+    left: 50%;
+    transform: translateX(-50%) !important;
+    bottom: 10px;
+    position: absolute;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: white;
+    opacity: 1;
+}
+
+.block-swiper {
+    max-width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.cta-center {
+    text-align: center;
+}
+
+.cta a {
+    padding: 10px 20px;
+    border: solid 3px #f0710a;
+    display: inline-block;
+    margin: 30px;
+}
+
+.cta-white a {
+    color: white;
+}
+
+.cta-black a {
+    color: black;
+}
+
 
 /*-----------------------------block-1---------------------------------------*/
 
 .presentation {
-    width: 30%;
+    width: 43%;
     float: left;
-    margin-top: 10%;
+    margin-top: 7%;
 }
 
 .presentation h2 {
     margin-bottom: 5%;
     font-size: 35px;
+}
+
+.subtitle-presentation-1 {
+    margin-top: 30px;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    line-height: 25px;
 }
 
 .img-screen {
@@ -89,8 +149,65 @@ a {
     max-width: 100%;
 }
 
+.logo-camera {
+    margin-top: 32px;
+    margin-right: 10px;
+    float: left;
+}
+
+.bold {
+    font-weight: bold;
+    line-height: 15px;
+}
+
+.subtitle-presentation-2 {
+    margin-top: 30px;
+    line-height: 20px;
+}
+
+.col-to-action-black a {
+    color: black;
+    padding: 2px 15px;
+    border: solid 2px #f0710a;
+    display: inline-block;
+    margin: 30px 0 30px 68px;
+}
+
 
 /*-----------------------------block-2---------------------------------------*/
+
+.production {
+    background-color: #f0710a;
+    color: white;
+    clear: both;
+}
+
+.content-preview {
+    float: left;
+    height: 145px;
+    width: 232px;
+    margin-top: 5%;
+}
+
+.content-preview img {
+    width: 100%;
+}
+
+.margin-right-preview {
+    margin-right: 5px;
+}
+
+.margin-left-preview {
+    margin-left: 5px;
+}
+
+.preview #wrapper .col-to-action-black-center a {
+    color: white;
+    padding: 10px 20px;
+    border: solid 3px #f0710a;
+    display: inline-block;
+    margin: 25px;
+}
 
 
 /*-----------------------------block-1---------------------------------------*/
@@ -100,4 +217,11 @@ footer {
     background-color: #3f3f3f;
     width: 100%;
     padding-bottom: 50px;
+}
+
+.copyright {
+    float: left;
+    margin-left: 30px;
+    transform: translateY(100%);
+    color: white;
 }
