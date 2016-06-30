@@ -6,13 +6,13 @@ app.get('/', function (req, res) {
     res.sendFile(__dirname + '/home.html');
 });
 app.get('/presentation', function (req, res) {
-    res.sendFile(__dirname + '/presentation.html');
+    res.sendFile(__dirname + '/html/presentation.html');
 });
 app.get('/realisation', function (req, res) {
-    res.sendFile(__dirname + '/realisations.html');
+    res.sendFile(__dirname + '/html/realisation.html');
 });
 app.get('/contact', function (req, res) {
-    res.sendFile(__dirname + '/contact.html');
+    res.sendFile(__dirname + '/html/contact.html');
 });
 
 app.use('/css', express.static(__dirname + '/css'));
