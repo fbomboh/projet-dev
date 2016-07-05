@@ -31,6 +31,15 @@ h2-margin {}
     margin: 5px;
     background: url('../img/header/logo-kofra-site.png') no-repeat center center;
     background-size: 100px;
+    transition: all 1ms ease-out;
+    -moz-transition: all 1ms ease;
+    -ms-transition: all 1ms ease;
+    -webkit-transition: all 1ms ease;
+    -o-transition: all 1ms ease;
+}
+
+.menu ul:hover {
+    background-size: 150px;
 }
 
 .line {
@@ -210,11 +219,11 @@ a {
 }
 
 .margin-right-preview {
-    margin-right: 5px;
+    margin-right: 4px;
 }
 
 .margin-left-preview {
-    margin-left: 5px;
+    margin-left: 4px;
 }
 
 .preview #wrapper .col-to-action-black-center a {
@@ -226,8 +235,7 @@ a {
 }
 
 
-/*-----------------------------footer
----------------------------------------*/
+/*-----------------------------footer---------------------------------------*/
 
 footer {
     clear: both;

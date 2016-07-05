@@ -1,0 +1,27 @@
+.cote {
+    margin-bottom: 14px;
+}
+
+.block-2 p {
+    margin-top: 5px;
+    display: block;
+}
+
+.block-2 {
+    margin-top: 30px;
+}
+
+img .logo {
+    margin-top: 10%;
+}
+
+.logo-camera {
+    margin-top: 0px;
+    margin-bottom: 40px;
+    margin-right: 10px;
+    float: left;
+}
+
+.kofra-img {
+    margin-bottom: 30px;
+}
